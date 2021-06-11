@@ -2,7 +2,7 @@
   "name": "del-ad",
   "author": "xcloche",
   "description": "検索広告等を非表示にします",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "manifest_version": 2,
   "web_accessible_resources": ["*"],
   "permissions": ["storage"],
@@ -10,6 +10,10 @@
     {
       "matches": ["https://www.google.co.jp/*", "https://www.google.com/*"],
       "css": ["filter/google_style.css"]
+    },
+    {
+      "matches": ["https://www.amazon.co.jp/*"],
+      "css": ["filter/amazon_style.css"]
     }
   ]
 }

@@ -1,0 +1,36 @@
+/* スポンサード商品 */
+.AdHolder {
+  display: none ! important;
+}
+
+/* ビデオ広告 */
+.s-flex-geom{
+  display: none ! important;
+}
+
+/* ヘッダーのスポンサード広告 */
+.widgetId\=loom-desktop-top-slot_hsa-id{
+  display: none ! important;
+}
+.threepsl{
+  display: none ! important;
+} 
+
+/*検索で出る記事広告 */
+.s-shopping-adviser{
+  display: none ! important;
+}
+
+/* フッターのバナー */
+.amzn-safe-frame-sizing{
+  display: none ! important;
+}
+
+/* 検索内容に関連したブランド */
+.threepsl{
+  display: none ! important;
+}
+
+.widgetId\=loom-desktop-brand-footer-slot_hsa-id{
+  display: none ! important;
+}
