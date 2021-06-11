@@ -9,7 +9,7 @@
   "content_scripts": [
     {
       "matches": ["https://www.google.co.jp/*", "https://www.google.com/*"],
-      "css": ["google/style.css"]
+      "css": ["filter/google_style.css"]
     }
   ]
 }
